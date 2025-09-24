@@ -2,12 +2,148 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/cdd1684e92.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Rogers Park</title>
     </head>
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <nav>
+            <ul>
+                <li class="link1"><a href="#home">Rogers Park</a></li>
+                <li class="link2"><a href="#section1">About</a></li>
+                <li class="link3"><a href="#section2">Slideshow</a></li>
+                <li class="link4">
+                    <a href="#section3">How to get there?!?</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="header-text">
+                <h1>Rogers Park</h1>
+                <p>A great Chicago neighborhood to live in!</p>
+            </div>
+        </header>
+
+        <section class="section1">
+            <h2>About Rogers Park</h2>
+            <div class="section1-main">
+                <div>
+                    <p>
+                        Rogers Park is a vibrant and diverse neighborhood located on the far 
+                        north side of Chicago, Illinois. Known for its cultural diversity, great food scene,
+                        proximity to Lake Michigan, and being home to Loyola University Chicago.
+                    </p>
+                    <p>
+                        Rogers Park is my current home, and I really love living here 
+                        so much! There is so much to do and I really love 
+                        the community. I enjoy my home so much that I decided to make this website! :)
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/transit.png" alt="Public Transit" />
+                </div>
+            </div>
+            <div class="video">
+                <video controls>
+                    <source src="assets/video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section class="section2">
+            <ul class="carousel">
+                <li>
+                    <div>
+                        <p>Right next to the Lake!</p>
+                        <img src="assets/lakefront.png" alt="Lake Michigan" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>Great food options!</p>
+                        <img src="assets/food.png" alt="Food" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>Close to public transit!</p>
+                        <img src="assets/transit.png" alt="Public Transit" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p>Beautiful parks and green spaces!</p>
+                        <img src="assets/parks.png" alt="Parks" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section3">
+            <h2>How to get there?!?</h2>
+            <p>
+                Now you have seen some of the great things that Rogers Park has
+                to offer. So naturally you want to try and visit as soon as
+                possible! Luckily for you, there are many great transportation
+                options available.
+            </p>
+            <div class="transit">
+                <div class="transit-item">
+                    <i class="fa-solid fa-train fa-2xl"></i>
+                    <h3>By Train</h3>
+                    <p>
+                        The CTA Red Line has several stops in Rogers Park,
+                        including Howard, Jarvis, Morse, and Loyola. The Red Line provides 
+                        easy access to downtown Chicago and other
+                        parts of the city. Additionally, the Purple and Yellow Lines have stops at Howard.
+                    </p>
+                </div>
+                <div class="transit-item">
+                    <i class="fa-solid fa-bus fa-2xl"></i>
+                    <h3>By Bus</h3>
+                    <p>
+                        Several CTA bus routes serve Rogers Park, including the
+                        22 Clark, 155 Devon, 96 Lunt, and 147 Lake Shore Express just to name a few. 
+                        These buses provide easy connectionsto other parts of 
+                        the city that the trains do not reach.
+                    </p>
+                </div>
+                <div class="transit-item">
+                    <i class="fa-solid fa-car fa-2xl"></i>
+                    <h3>By Car</h3>
+                    <p>
+                        If you prefer to drive, Rogers Park can accommodate you too. 
+                        The neighborhood is located near several major
+                        roads, including the Edens Expressway and Lake Shore Drive. However, parking can
+                        be limited in some areas, so be sure to plan ahead for finding parking!
+                    </p>
+                </div>
+            </div>
+
+            <button class="modal-button">
+                View CTA Map
+            </button>
+            <div class="overlay">
+                <div class="modal">
+                    <img src="assets/cta.png" alt="CTA Map" />
+                    <button class="close-button">Close Modal</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <P>Thanks for visiting this website!</P>
+            <p>Let's Stay Connected!</p>
+            <div class="icons">
+               <i class="fa-brands fa-facebook fa-2xl"></i>
+               <i class="fa-brands fa-twitter fa-2xl"></i>
+               <i class="fa-brands fa-instagram fa-2xl"></i>
+               <i class="fa-brands fa-linkedin fa-2xl"></i>
+        </footer>
     </body>
 </html>
